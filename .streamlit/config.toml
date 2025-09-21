@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#16A34A"         # aksen (button/link)
+backgroundColor = "#0B0F10"      # latar utama
+secondaryBackgroundColor = "#ed7d97ff"  # panel/sidebar/card
+textColor = "#E5E7EB"            # teks
+font = "sans serif"              # "sans serif" | "serif" | "monospace"
