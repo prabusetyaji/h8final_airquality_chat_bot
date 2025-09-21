@@ -57,12 +57,14 @@ Ensure you have Python installed. It is recommended to use `miniconda` or `conda
     chatbot would store your log file to keep tracking your sleep quality as you
     continue using the chatbot. you can also summarize and see your past sleep experience using prompt
  
+8. **streamlit deployment**
 
+    ```
+    the chatbot could also accessed through https://airquality-sleep-coach.streamlit.app/
 
 ## Code Structure
 
-- streamlit_app.py: The main Streamlit application file, containing the chatbot UI and logic.
-- database_tools.py: Contains functions for interacting with the sales_data.db database.
+- sleep_pm25_coach_bot.py: The main Streamlit application file, containing the chatbot UI and logic.
+- sleepdb_tools.py: Contains functions for interacting with the sales_data.db database.
 - requirements.txt: Lists all Python dependencies required for the project.
-- streamlit_react_app.py: (Optional) Another Streamlit application, possibly demonstrating React integration.
-- streamlit_react_tools_app.py: (Optional) Another Streamlit application, possibly demonstrating React tools integration.
+- database/sleep_data.db: would store log files for user input for n times
